@@ -1,0 +1,384 @@
+/* =============================================================================
+   HTML5 Boilerplate CSS: h5bp.com/css
+   ========================================================================== */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+audio:not([controls]) { display: none; }
+[hidden] { display: none; }
+
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+html, button, input, select, textarea { font-family: sans-serif; color: #222; }
+body { background: url(img/background.jpg) center top repeat; margin: 0; font-size: 1em; line-height: 1.4; }
+#content, #col-l, #col-r {
+          background: none;
+         }
+         
+p{
+  font-family: arial, sans-serif;
+  font-size: 12px;
+ }         
+#col-r{
+       padding: 5px 30px 25px 15px;
+      }         
+         
+@font-face {
+    font-family: 'PFAgoraSansProLightRegular';
+    src: url('fonty/pfagorasanspro-lightwebfont.eot');
+    src: url('fonty/pfagorasanspro-lightwebfont.eot?#iefix') format('embedded-opentype'),
+         url('fonty/pfagorasanspro-lightwebfont.woff') format('woff'),
+         url('fonty/pfagorasanspro-lightwebfont.ttf') format('truetype'),
+         url('fonty/pfagorasanspro-lightwebfont.svg#PFAgoraSansProLightRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PFAgoraSansProLightItalic';
+    src: url('fonty/pfagorasanspro-lightitalwebfont.eot');
+    src: url('fonty/pfagorasanspro-lightitalwebfont.eot?#iefix') format('embedded-opentype'),
+         url('fonty/pfagorasanspro-lightitalwebfont.woff') format('woff'),
+         url('fonty/pfagorasanspro-lightitalwebfont.ttf') format('truetype'),
+         url('fonty/pfagorasanspro-lightitalwebfont.svg#PFAgoraSansProLightItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1,h2,h3,h4,h5{
+               font-family: PFAgoraSansProLightItalic;
+               color: #474747;
+               background: none;
+               padding: 0;
+               font-weight: normal;
+              }
+
+h1{
+   font-size: 24px;
+   text-transform: uppercase;
+  }
+
+h2{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+  
+h3{
+   font-size: 16px;
+  }  
+#header{
+        background: white url(img/header.jpg) 50% 6px no-repeat;
+        width: 947px;
+        height: 247px;
+        margin: 0 auto;
+        /*padding-top: 205px;*/
+       }
+
+#mother{
+        background: white;
+        margin-top:115px;
+        
+       }
+#footer{
+        border-top: 1px dashed #ddd;
+        background: none;
+        padding-bottom: 13px;
+       }
+#col-r .spc {
+    padding: 0 0px 20px;
+}
+
+/*******Úpravy Penzion Meredová*******/
+#crossroad img {
+    float: right;
+    margin: 0 20px 20px 0;
+}
+
+#crossroad .no-image{
+    padding-left: 0;
+}
+#crossroad h2, #crossroad h2 a{
+   color: #474747;
+}
+
+#perex{
+    margin-bottom: 2.5em;
+    padding: 20px;
+    font-weight: bold;
+    color: black;
+    background-color: #F3F3F3;
+}
+.home #col-r h4 {
+    padding: 0.7em 20px;
+    background: #F3F3F3;
+    color: white;
+}
+
+.date {
+    margin: -0.2em 0 0.5em 0;
+    color: #666;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+#header p {
+    color: #383838;
+    position: absolute;
+    top: -70px;
+    left: 30%;
+}
+
+#header #logo a{
+    color: #383838;
+    position: absolute;
+    top: -21px;
+    left: -10px;
+    width: 300px;
+}
+
+#mother .lang {
+    position: absolute;
+    top: -31px;
+    right: 0;
+    background: #ffffff;
+    padding: 5px 10px;
+    margin: 0;
+    -webkit-border-radius: 7px 7px 0px 0px;
+    border-radius: 7px 7px 0px 0px;
+}
+
+p#gal-list { clear: both; }
+.images a, #gallery a{
+                      width: 140px;
+                      height: auto;
+                     } 
+                     
+table, td, fieldset, legend{
+                            background: none;
+                            padding: 0 0 5px 10px;
+                            border: none;
+                            font-size:  12px;
+                            
+                           }
+input.text, textarea.s100{
+      border: 1px solid #DDD;
+     }                            
+                                                                  
+#header p{
+
+          clear: both;
+          line-height: 37px;
+          padding: 10px;
+          margin: 5px 0 0 10px;
+          text-transform: uppercase;
+          font-family: PFAgoraSansProLightRegular;
+          font-size: 30px;
+         }              
+#header p.low{
+               font-size: 18px;
+               line-height: 15px;
+              }
+
+#header p#logo-mas {
+    background: none;
+    margin: -150px 34%;
+}
+
+.blue {
+        background: #099AD4;
+        padding: 10px ;
+        line-height: 20px;
+        height: 20px;
+        margin-left: 12px;
+        }
+        
+.blue h2{
+              font-family: PFAgoraSansProLightItalic;
+              font-size: 18px;
+              color: #fff;
+              font-weight: normal;
+              text-transform: none;
+             } 
+
+#menu-main ul {
+              list-style: none;
+              margin: 0;
+              padding: 5px 15px 40px 15px;
+              }
+#menu-main ul li{
+                 border-bottom: 1px dashed  #DDD;
+                 list-style: none;
+                }             
+#menu-main a, #menu-main li.active a, #menu-main li.active a:hover{
+                                                                     background: none;
+                                                                    }
+#menu-main a{
+             color: #494949;
+             font-weight: normal;
+            }
+            
+#menu-main a:hover{
+                   color: #494949;
+                   font-weight: normal;
+                   text-decoration: underline;
+                  }            
+#menu-main li.active a{
+                       color: #494949;
+                       font-weight: bold;
+                      }  
+                      
+#menu-main li.active a:hover{
+                              color: #494949;
+                              font-weight: bold;
+                              text-decoration: none;
+                            }
+
+#menu-main li.active li.active a {color: #3cbc00;}
+
+#menu-main li.active li a:hover {color: #3cbc00;}
+
+
+.spc ul {
+        margin: 10px 0 14px 0;
+        padding: 0 0 0 30px;
+        }
+       
+.spc ul li{
+           padding-left: 5px;
+           padding-bottom:4px;
+           list-style: square;
+           font-size: 12px;
+           line-height: 25px;
+          }
+
+/*******Konec úpravy Penzion Meredová*******/
+
+
+::-moz-selection { background: #006BB1; color: #fff; text-shadow: none; }
+::selection { background: #006BB1; color: #fff; text-shadow: none; }
+
+a { color: #474747; }
+a:visited { color: #474747; }
+a:hover { color: #2b2b2b; }
+a:focus { outline: thin dotted; }
+a:hover, a:active { outline: 0; }
+
+abbr[title] { border-bottom: 1px dotted; }
+b, strong { font-weight: bold; }
+blockquote { margin: 1em 40px; }
+dfn { font-style: italic; }
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+ins { background: #ff9; color: #000; text-decoration: none; }
+mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
+pre, code, kbd, samp { font-family: monospace, serif; _font-family: 'courier new', monospace; font-size: 1em; }
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
+q { quotes: none; }
+q:before, q:after { content: ""; content: none; }
+small { font-size: 85%; }
+
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
+ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
+dd { margin: 0 0 0 40px; }
+nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
+
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+
+svg:not(:root) { overflow: hidden; }
+
+figure { margin: 0; }
+
+form { margin: 0; }
+fieldset { border: 0;  }
+label { cursor: pointer; }
+legend { border: 0; *margin-left: -7px; padding: 0; white-space: normal; }
+button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; }
+button, input { line-height: normal; }
+button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; *overflow: visible; }
+button[disabled], input[disabled] { cursor: default; }
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0; *width: 13px; *height: 13px; }
+input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button { -webkit-appearance: none; }
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+textarea { overflow: auto; vertical-align: top; resize: vertical; }
+input:valid, textarea:valid {  }
+input:invalid, textarea:invalid { background-color: #f0dddd; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+td { vertical-align: top; }
+
+.chromeframe { margin: 0.2em 0; background: #ccc; color: black; padding: 0.2em 0; }
+
+
+
+/* ===== Primary Styles ========================================================
+   Author:
+   ========================================================================== */
+
+.side-block {
+    padding: 25px 15px 10px 25px;
+}
+
+
+
+/* slideshow */
+.booklet { clear: both; position:relative; left:0; top:0; overflow:hidden; width:203px; height:305px; margin: 0; padding: 0; border: none; }
+.booklet .items { width:20000em; position:relative; margin: 0; padding: 0; }
+.booklet .items>div { float:left; width:203px; height:305px; margin: 0; padding: 0;}
+
+/* Icons */
+#files ul.ico { margin: 0; padding: 0; line-height: 1.6em; list-style: none; background: none; }
+#files ul.ico li, #files .ico { padding: 0 0 0.5em 23px; }
+#files ul.ico li { background-repeat: no-repeat; list-style: none; font-size: 14px; }
+#files ul.ico li span { font-size: 92%; }
+#files li.ico { background: url("ico/noname.gif") no-repeat 0 0; padding-bottom: 5px; }
+#files li.ico-pdf { background-image: url("ico/pdf.gif"); }
+#files li.ico-doc { background-image: url("ico/doc.gif"); }
+#files li.ico-xls { background-image: url("ico/xls.gif"); }
+#files li.ico-jpg, #files .ico-jpeg { background-image: url("ico/jpg.gif"); }
+#files li.ico-gif { background-image: url("ico/gif.gif"); }
+#files li.ico-rss { background-image: url("ico/rss.png"); }
+
+
+/* =============================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+/* =============================================================================
+   Non-Semantic Helper Classes
+   ========================================================================== */
+
+.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; *line-height: 0; }
+.ir br { display: none; }
+.hidden { display: none !important; visibility: hidden; }
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+.invisible { visibility: hidden; }
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+.break { clear: both; display: block; }
+.images span.break { clear: both; display: block; height: 10px;}
+
+/* =============================================================================
+   Print Styles
+   ========================================================================== */
+
+@media print {
+    * { background: transparent !important; color: black !important; box-shadow:none !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } /* Black prints faster: h5bp.com/s */
+    a, a:visited { text-decoration: underline; }
+    a[href]:after { content: " (" attr(href) ")"; }
+    abbr[title]:after { content: " (" attr(title) ")"; }
+    .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  /* Don't show links for images, or javascript/internal links */
+    pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+    thead { display: table-header-group; } /* h5bp.com/t */
+    tr, img { page-break-inside: avoid; }
+    img { max-width: 100% !important; }
+    @page { margin: 0.5cm; }
+    p, h2, h3 { orphans: 3; widows: 3; }
+    h2, h3 { page-break-after: avoid; }
+}

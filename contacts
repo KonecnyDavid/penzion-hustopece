@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="content-language" content="en" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="description" content="Accommodation Hustopece" />
+<meta name="keywords" content="Pension" />
+<meta name="author" content="GRAWEB s.r.o., grafika a webdesign" />
+<meta name="robots" content="index, follow" />
+<title>Contacts | Pension</title>
+<link href="/layout/1/theme.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="/layout/1/print.css" rel="stylesheet" type="text/css" media="print" />
+<link href="/layout/main.css" rel="stylesheet" type="text/css" media="screen" />
+<script type='text/javascript' src='/admin/modules/system/javascript/presentation.js'></script>
+<link href="/js/imagebox2/imagebox.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body >
+<div id="mother">
+    <div class="lang">
+        <a href="/"><img src="layout/img/cz.png"/></a>
+        <a href="/penzion-meredova"><img src="layout/img/en.png"/></a>
+        <a href="/penzion-meredova-1"><img src="layout/img/de.png"/></a>
+    </div>
+    <div id="header">
+		<p id="logo"><a href="/">		Pension</a></p>
+		<p><strong>Accommodation Hustopece</strong><br /></p>
+	</div>
+	<!--/header -->
+	<div id="content" class="cols">
+		<div id="col-r">
+
+
+
+                            
+    <h1>Contacts</h1>
+
+
+
+
+<div class="spc">
+
+<p><strong>Mgr. Anna Meredová</strong><br />
+Školní 16<br />
+693 01 Hustopeče u Brna<br />
+&nbsp;<br />
+Tel.: 519 412 625<br />
+Mobil: 606 252 118, 731 607 228<br />
+Email: <a href="mailto:meredovaanna&#064;seznam.cz">meredovaanna&#064;seznam.cz</a>&nbsp;</p>
+
+<script type='text/javascript' src='/admin/modules/system/javascript/presentation.js'></script>
+<script type='text/javascript' src='/admin/modules/webtext/javascript/sendform.php?lang=en'></script>
+<script type='text/javascript' src='/admin/modules/webtext/javascript/sendform.js'></script>
+<form action='/admin/modules/webtext/sendform.php' onsubmit='return webx_validate_form(1)' method='post' class='webx_sendform'>
+<fieldset>
+
+<p>
+<label for='webx_1_inp_1'>First and last name:</label><br />
+    <input type='text' name='webx_1_inp_1' id='webx_1_inp_1' size='50' maxlength='255' value='' class='text' />
+</p>
+
+
+<p>
+<label for='webx_1_inp_2'>Phone:</label><br />
+    <input type='text' name='webx_1_inp_2' id='webx_1_inp_2' size='50' maxlength='255' value='' class='text' />
+</p>
+
+
+<p>
+<label for='webx_1_inp_3'>E-mail:</label><br />
+    <input type='text' name='webx_1_inp_3' id='webx_1_inp_3' size='50' maxlength='255' value='@' class='text' />
+</p>
+
+
+<p>
+<label for='webx_1_inp_4'>Message:</label><br />
+    <textarea name='webx_1_inp_4' id='webx_1_inp_4' class='s100 text' cols='80' rows='5'></textarea>
+</p>
+
+<p>
+	<input type='hidden' name='webx_form_sn' value='1' />
+	<input type='hidden' name='js_value' id='webx_1_js_value' value='0' />
+	<input type='hidden' name='webx_required_items' id='webx_1_required_items' value='1^#^First and last name^#^text^&amp;^4^#^Message^#^message^&amp;^' />
+	<input type='hidden' name='webx_mails' id='webx_1_mails' value='3^#^E-mail^&amp;^' />
+	<input type='hidden' name='webx_form_counter' value='1' />
+	<input type='hidden' name='url' value='/contacts' />
+	<input type='hidden' name='title' value='Contacts' />
+	<input type='hidden' name='Lang' value='en' />
+	<input type='submit' name='submit' value='Send' class='submit' />
+</p>
+</fieldset>
+</form>
+
+
+
+
+</div>
+<!--/spc -->
+
+                                
+
+
+		</div>
+		<!--/col-r -->
+		<div id="col-l">
+			<div id="menu-main">
+				<ul>
+					
+<li>
+<a href='/penzion-meredova'>Home</a>
+
+
+</li>
+<li>
+<a href='/vicinity'>Vicinity</a>
+
+
+</li>
+<li>
+<a href='/photogallery'>Photogallery</a>
+
+
+</li>
+<li class='active'>
+<a href='/contacts'>Contacts</a>
+
+
+</li>
+</ul>
+
+<!-- shop -->
+
+<!--/shop -->
+
+			</div>
+			<!--/menu-main -->
+
+
+			
+						
+						
+							
+						
+			
+						
+						
+
+						
+						
+		</div>
+		<!--/col-l -->
+	</div>
+	<!-- content /-->
+
+	<hr class="out" />
+	<div id="footer">
+
+		<p>2013 &copy; Copyright</p>
+		<p class="r">Webdesign: <a href="https://www.graweb.com">GRAWEB</a></p>
+	</div>
+	<!-- /footer -->
+</div>
+<!-- /mother -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/js/libs/jquery-1.7.2.min.js"><\/script>')</script>
+<script src="/js/imagebox2/iutil.js" type="text/javascript"></script>
+<script src="/js/imagebox2/imagebox_new.js?1" type="text/javascript"></script>
+<script src="/js/script.js"></script>
+<script src="/js/main.js" type="text/javascript"></script>
+
+
+
+</body>
+</html>

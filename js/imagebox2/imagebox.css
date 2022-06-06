@@ -1,0 +1,84 @@
+.lienintelliance{
+	color:#F16710;
+	text-decoration:underline;
+}
+.lienintelliance:hover{
+	text-decoration:none;
+}
+.lienagence{
+	color: #666666;
+	text-decoration:none;
+}
+p.piedpage{
+	font-style:italic;
+	margin-bottom:2px;
+	margin-top:2px;
+}
+p.seeothers{
+
+}
+
+#ImageBoxOverlay
+{
+	background-color: #000;
+    z-index: 499;
+}
+#ImageBoxCaption
+{
+	background-color: #F4F4EC;
+    z-index: 500;
+}
+#ImageBoxContainer
+{
+	width: 250px;
+	height: 250px;
+	background-color: #F4F4EC;
+    z-index: 501;
+}
+#ImageBoxCaptionText
+{
+	font-weight: bold;
+	padding-bottom: 5px;
+	font-size: 13px;
+	color: #000;
+}
+#ImageBoxCaptionImages
+{
+	margin: 0;
+}
+#ImageBoxNextImage
+{
+	background-image: url(spacer.gif);
+	background-color: transparent;
+}
+#ImageBoxPrevImage
+{
+	background-image: url(spacer.gif);
+	background-color: transparent;
+}
+#ImageBoxNextImage:hover
+{
+	background-image: url(next.png);
+	background-repeat:	no-repeat;
+	background-position: right center;
+}
+#ImageBoxPrevImage:hover
+{
+	background-image: url(prev.png);
+	background-repeat:	no-repeat;
+	background-position: left center;
+}
+#viewjs{
+	color:#222222;
+	font-size:14px;
+	text-decoration:underline;
+}
+#viewjs:hover{
+	text-decoration:none;
+}
+
+#ImageBoxNextImage img, #ImageBoxPrevImage img, #ImageBoxCaption img,
+#ImageBoxOverlay img, #viewjs img, #ImageBoxCaptionImages img, #ImageBoxContainer img,
+#ImageBoxCurrentImage img , #ImageBoxOuterContainer img, #ImageBoxIframe img,
+#ImageBoxCaptextcontainer img 
+{ border:0; padding:0; margin:0; }

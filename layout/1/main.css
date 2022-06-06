@@ -1,0 +1,334 @@
+/**
+ * Main layout rules
+ */
+
+
+/* Basic rules */
+body { padding: 0; margin: 0; text-align: center; }
+h1 { margin: 0 0 20px; padding: 0.6em 20px; clear: both; font-size: 23px; font-weight: normal; }
+
+/* Auto break */
+.spc:after, .cols:after, #menu-main:after, #content:after, #perex:after, #crossroad div:after, #gallery:after, #files:after, #footer:after, .centered:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+
+/* Mother block */
+#mother { width: 960px; margin: 0 auto; text-align: left; position: relative; }
+
+/* Header */
+#header { height: 150px; padding-top: 7px; }
+#header p { margin: 55px 0 0 35px; line-height: 1.3em; font-size: 25px; float: left; }
+#header #logo { margin: 0 15px 0 35px; }
+#header #logo a { display: block; width: 190px; height: 140px; text-decoration: none; text-align: center; font-size: 20px; }
+#header img { border: none; }
+#header strong { font-weight: normal; }
+
+/* Header (sub) */
+#header-sub { padding: 1.2em 15px 0 0; text-align: right; position: absolute; top: 153px; right: 0; }
+#header-sub p { margin: 0; }
+#header-sub ul { list-style: none; margin: 0; float: right; }
+#header-sub li { float: left; margin-left: 1em; padding-right: 1em; border-right: 1px solid #ccc; }
+#header-sub li.last { border: none; padding-right: 0; }
+ 
+/* Main menu */
+#menu-main ul { list-style: none; margin: 0; padding: 25px 15px 10px 25px; }
+#menu-main ul ul { padding: 0 12px 6px; }
+#menu-main ul ul li { border: none; }
+#menu-main ul ul ul { padding-left: 25px; }
+#menu-main li { border-bottom: 1px solid #ddd; }
+#menu-main li.last { border: none; }
+/* Main menu > 1. level */
+#menu-main a { display: block; padding: 9px 16px; text-decoration: none; font-weight: bold; font-size: 12px; background: url("/layout/2/img/menu-link.png") no-repeat 5px 16px; }
+#menu-main a:hover, #menu-main a:active, #menu-main a:focus { background-position: 5px -780px; }
+#menu-main li.active { margin-top: -1px; }
+#menu-main li.active a, #menu-main li.active a:hover { background-position: 5px -1580px; }
+#menu-main li.active li a, #menu-main li.active li a:hover { margin: 0; padding: 6px 10px 6px 14px; background-color: transparent; background-position: 5px 14px; }
+/* Main menu > 3. level */
+#menu-main ul ul ul a { font-size: 11px; }
+
+/* Content */
+#content { margin-top: 22px; padding: 0 0 1em; background: url("/layout/2/img/content.jpg") repeat-y 0 0; }
+#content img { padding: 2px; }
+
+/* Columns */
+#col-l, #col-r { min-height: 500px; _height: 500px; }
+#col-l { width: 245px; float: left; background: url("/layout/2/img/col-l.jpg") no-repeat 0 0; }
+#col-l .spc { margin: 30px 20px; padding: 15px 15px 0; color: #333; border: 1px solid #eee; }
+/* Col-r */
+#col-r { width: 670px; padding: 35px 30px 25px 15px; float: right; background: url("/layout/2/img/col-r.jpg") no-repeat 0 0; }
+#col-r .spc { padding: 0 20px 25px; }
+
+/* Home > Col-r */
+.home #col-r h4 { padding: 0.7em 20px; background: #ddd; color: white; }
+.home #col-r h4 a { color: #333; }
+.home #col-r h4 a:hover { text-decoration: none; }
+.home #col-r .cols .spc { min-height: 80px; _height: 80px; padding: 0 20px; }
+
+/* Decoration */
+#decoration { margin: -20px 0 20px; }
+#decoration img { border-top: 0; }
+
+/* Perex */
+#perex { margin-bottom: 2.5em; padding: 0 20px; font-weight: bold; color: black; }
+#perex p { margin: 0; }
+
+/* Footer */
+#footer { margin: 0 15px 20px; color: #5A6054; font-size: 92%; background: url("/layout/2/img/footer.jpg") no-repeat 0 0; }
+#footer p { margin: 0; padding-top: 1.5em; clear: both; xfloat: right; }
+#footer img { border: none; }
+#footer p.r { padding-top: 0; margin-top: -1.5em; }
+
+/* Crossroad */
+#crossroad img { float: left; margin: 0 20px 20px 0; }
+#crossroad .no-image { padding-left: 145px; }
+#crossroad .news { padding-bottom: 15px; margin-bottom: 15px; border-bottom: 1px dotted #ddd; _height: 1px; min-height: 1px; }
+#crossroad .more { margin: 0; }
+
+/* Misc */
+.out { position: absolute; left: -6000px; }
+.files { margin: 0 0 1.6em 0; padding: 0; list-style: none; }
+table.th-right th { text-align: right; }
+ul p.center img { margin-top: 1.5em; }
+.date { margin: -0.2em 0 0.5em 0; color: #666; font-size: 92%; font-weight: bold; }
+.error, .notice, .success { margin: 25px; }
+
+/* IE Only */ 
+.cols, .spc, .col-50-l, .col-50-r, #menu-main a, #crossroad div, #gallery, #perex, #footer { _height: 1px; min-height: 1px; }
+#header p, #gallery a { _display: inline; }
+
+
+/* by agent_orange */
+p#rss {
+	text-align:right;
+}
+p#rss img {
+	border:0; margin:0 3px;
+	vertical-align:middle;
+	float:none;
+	display:inline;
+}
+
+div.guestbook {
+	border-bottom:1px solid #ddd;
+	margin-top:10px;
+	padding-top:10px;
+}
+
+div.guestbook img {
+	border:0;
+	vertical-align:middle;
+}
+
+form#prispevek {
+	margin-top:50px;
+}
+
+p#gal-list {
+	text-align:center;
+}
+
+form.column {
+	margin:0; padding:0;
+}
+
+form.column input.text {
+	width:160px;
+}
+
+form.fulltext p {  }
+p.fulltext-search {
+	text-align:right;
+}
+
+td.price { text-align:right; }
+td.number { text-align:center; }
+
+ul.poll, ul.links {
+	margin:0 0 13px; padding:0;
+	list-style-type:none;
+}
+
+ul.links {
+	text-align:center;
+}
+
+ul.links li {
+	margin:6px 0 7px;
+}
+
+p.contact {
+	clear:both;
+	padding:0 0 0; margin:0 0 13px;
+}
+
+p.contact:after { content: "."; display: block; height: 1px; clear: both; visibility: hidden; }
+
+ul.articles {
+	margin-left:7px;
+	padding-left:7px;
+}
+
+/* obchod */
+.customer span { width:30ex; float:left; line-height:1.8; }
+.customer span.req { width:auto; float:none; color:red; font-weight:bold; }
+.customer span.login { text-align:right; padding-right:2ex; line-height:1.6 }
+.customer p.submit { text-align:center; }
+.customer p.button { margin-left:32ex;}
+.customer fieldset.customer { margin-top:0; }
+.product {
+	margin:15px 0; padding:5px 14px; clear:both; float:none; width:640px;
+	background:#F5F5F5; border:1px solid #EEE;
+}
+.product form { margin:0; padding:0; }
+.buttons { text-align:right; }
+.prod-img { margin-top:0; padding-top:0; }
+.prices { float:right; text-align:right; padding-left:2ex; }
+.prices span.vat { font-style:italic; }
+.prices span.old { font-style:italic; }
+.prices del { text-decoration:none; }
+.to-basket { text-align:right; clear:both; }
+
+#menu-main ul.shop a { padding: 4px 16px; background: url("/layout/2/img/menu-link.png") no-repeat 5px 11px; }
+#menu-main ul.shop a:hover, #menu-main ul.shop a:active, #menu-main ul.shop a:focus { background-position: 5px -785px; }
+#menu-main ul.shop li.active { margin-top: -1px; }
+#menu-main ul.shop li.active a, #menu-main ul.shop li.active a:hover { background-position: 5px -1585px; }
+#menu-main ul.shop li.active li a, #menu-main ul.shop li.active li a:hover { padding: 1px 10px 1px 14px;  background-position: 5px 9px; }
+#menu-main li.login { padding:9px 16px }
+#menu-main li.login a { display:inline; background-image:none; padding:0; }
+
+#col-l h3.shop { margin: 10px 20px; padding: 0 15px 0;}
+
+
+.nop { width:5ex; text-align:right; }
+.product .catpath { font-size:0.8em; }
+.full-product .catpath { text-align:right; }
+.product .catpath, .subcategories { margin-left:22px; margin-right:22px; }
+.listbar { min-height:2.4em; _height:2.4em; clear:both; line-height:2.4em; }
+.next-pages { text-align:center; font-weight:bold;  float:left; line-height:2.4em; margin:0;}
+.sortby { float:right; margin:0; padding:0; }
+.sortby p { margin:0; padding:0; line-height:2.4em; height:2.4em; }
+.sortby button { padding:0; margin:0; border:0; background:transparent; }
+.sortby img { border:0; padding:0; margin:0; }
+
+/* košík */
+.basket { width:100%; }
+#registration p.basket { margin:-2em 0 2em; padding-top:0; line-height:1.5; }
+.basket th { text-align:center; }
+.basket td.icon { width:16px; }
+.basket img { border:0; }
+.basket td.nop { width:auto; text-align:center; }
+.basket td.enum { text-align:center; }
+.basket th { border:1px solid #D1EFE5; }
+#transport_sn_1 { font-family:monospace; font-size:12px; }
+.basket td.ce { text-align:center; }
+/* pokladna */
+h3.order { margin-bottom:0; padding-bottom:0; }
+h3.order+p { margin-top:0; padding-top:0; }
+
+/* modul rezervací */
+/* kalendář hodinový */
+table.kalendar { border:0; background:transparent !important; }
+table.kalendar thead tr th {
+    vertical-align:bottom; text-align:center; font-size:0.7em; border:0;
+    padding:0; font-weight:normal; background:transparent !important;
+    color:black;
+}
+table.kalendar img { vertical-align:bottom; border:0; display:inline; margin:0; padding:0 !important; float:none;}
+#crossroad table.kalendar img { float: none; margin:0; padding:0; }
+
+table.kalendar tbody th {
+    font-size:0.8em; background:#F5F5F5; padding:0 0 0 10px;
+    color:black; border:1px solid #DDDDDF; border-right:0;
+}
+table.kalendar td {
+    min-width:10px; *width:12px; padding:0; text-align:center; vertical-align:middle;
+    border:1px solid #DDDDDF;
+}
+table.kalendar td.reservation, table.kalendar tr:hover td.reservation {
+    background-image:none; background-color:green !important;
+    border-left-color:green; border-right-color:green;
+}
+table.kalendar td.order, table.kalendar tr:hover td.order {
+    background-image:none; background-color:orange !important;
+    border-left-color:orange; border-right-color:orange;
+}
+span.order, span.reservation, span.expres {
+    padding:0 1ex; border:1px solid #DDDDDF; margin:0 0.5ex;
+}
+span.order { background-color:orange !important; }
+span.reservation { background-color:green !important; }
+
+table.kalendar td.left, table.kalendar tr:hover td.left {
+    border-left:1px solid #DDDDDF !important;
+}
+table.kalendar td.right, table.kalendar tr:hover td.right {
+    border-right:1px solid #DDDDDF !important;
+}
+table.kalendar td.none, table.kalendar tr:hover td.none { background:#F5F5F5 !important; border-left:0;}
+
+
+
+table.kalendar td a, table.kalendar td span.hint {
+    display:block; min-height:25px; min-width:10px; *width:12px;
+    text-decoration:none;
+}
+table.kalendar td a:hover { background:black; }
+
+/* Kalendář - tabulka - měsíc */
+table.mesic {
+    border:0; background:transparent !important; float:left; margin-right:15px;
+}
+table.mesic thead tr th {
+    vertical-align:bottom; text-align:center; font-size:0.7em; border:0;
+    padding:0; font-weight:normal; background:transparent !important;
+    color:black;
+}
+table.mesic img { vertical-align:bottom; border:0; display:inline; margin:0; padding:0 !important; float:none;}
+#crossroad table.mesic img { float: none; margin:0; padding:0; }
+
+table.mesic tbody th {
+    font-size:0.8em; background:#F5F5F5; padding:0 0 0 10px;
+    color:black; border:1px solid #DDDDDF; border-right:0;
+}
+table.mesic td {
+    min-width:10px; *width:12px; padding:0; text-align:center; vertical-align:middle;
+    border:1px solid #DDDDDF;
+}
+table.mesic td.reservation, table.mesic tr:hover td.reservation {
+    background-image:none; background-color:green !important;
+    border-left-color:green; border-right-color:green;
+}
+table.mesic td.order, table.mesic tr:hover td.order {
+    background-image:none; background-color:orange !important;
+    border-left-color:orange; border-right-color:orange;
+}
+span.order, span.reservation, span.expres {
+    padding:0 1ex; border:1px solid #DDDDDF; margin:0 0.5ex;
+}
+span.order { background-color:orange !important; }
+span.reservation { background-color:green !important; }
+
+table.mesic td.left, table.mesic tr:hover td.left {
+    border-left:1px solid #DDDDDF !important;
+}
+table.mesic td.right, table.mesic tr:hover td.right {
+    border-right:1px solid #DDDDDF !important;
+}
+table.mesic td.none, table.mesic tr:hover td.none { background:#F5F5F5 !important; border-left:0;}
+table.mesic td a, table.mesic td span.hint {
+    padding:6px; display:block; text-decoration:none;
+}
+table.mesic td a:hover { background:black; }
+
+.tooltipsy
+{
+    padding:10px; color: #505152; border:1px solid #b9cdd2; background:white;
+    cursor: pointer; -webkit-border-radius: 3px; -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+form#objednavka p { clear:both; float:none; }
+form#objednavka span { float:left; width:195px; line-height:2.5; }
+form#objednavka fieldset span { width:180px; }
+form#objednavka label { line-height:2.5; }
+form#objednavka span.inp { display:inline; float:none; width:auto;}
+
+

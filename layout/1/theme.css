@@ -1,0 +1,48 @@
+/**
+ * Theme rules
+ */
+ 
+
+@import url("/layout/content.css");
+@import url("/layout/1/main.css");
+@import url("/layout/1/thickbox.css");
+
+
+/* Theme rules */
+h2, h3, h4, a, caption { color: #4AC69F; }
+a:hover, a:hover img { color: #140E66; border-color: #140E66; }
+table, td, fieldset, legend { background: #D1EFE5; color: black; }
+table, th, td, fieldset, input.text, textarea, legend { border: 1px solid #4AC69F; }
+th { background: #4AC69F; color: black; }
+img { border: 1px solid #4AC69F; }
+
+
+/* Theme rules */
+body { background: white url("img/body.png") repeat-x 0 0; color: #222; }
+h1 { background: #4AC69F url("img/stripe.jpg") repeat-y 100% 0; color: white; }
+
+/* Theme > Header */
+#header #logo a { /* border: 1px dashed white; */ color: white; }
+
+/* Theme > Header (sub) */
+#header { background: transparent url("img/header.png") repeat-x 0 0; color: white; }
+#header-sub, #header-sub a { color: #999; }
+#header-sub a:hover { color: black; }
+
+/* Theme > Main menu > 1. level */
+#menu-main a { color: #140E66; }
+#menu-main a:hover, #menu-main a:active, #menu-main a:focus { color: #4AC69F; }
+#menu-main li.active a, #menu-main li.active a:hover { background-color: #140E66; color: white; }
+/* Theme > Main menu > 2. level */
+#menu-main li.active li a, #menu-main li.active li a:hover { color: #140E66; }
+#menu-main li.active li a:hover { color: #4AC69F; }
+#menu-main li.active li.active a { color: #4AC69F; }
+/* Theme > Main menu > 3. level */
+#menu-main li.active li.active li a { color: #140E66; }
+#menu-main li.active li.active li a:hover { color: #4AC69F; }
+#menu-main li.active li.active li.active a { color: #4AC69F; }
+
+/* Theme > Footer */
+#footer { background: url("img/footer.jpg") no-repeat 0 0; }
+#footer a { color: #5A6054; }
+#footer a:hover { color: black; }

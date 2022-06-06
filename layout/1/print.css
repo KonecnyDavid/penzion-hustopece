@@ -1,0 +1,13 @@
+/**
+ * Print rules
+ */
+ 
+body { font-family: sans-serif; }
+table, th, td { border: 2px solid #666; border-collapse: collapse; }
+img { border: none; clear: left; }
+img.left, img.right { margin: 0 1.8em;  margin-top: 0; }
+img.left { float: left; margin-left: 0; }
+img.right { float: right; margin-right: 0; }
+
+#logo { float: right; }
+.out, #header-sub, #menu-main, #decoration, #perex-img, form, #files { display: none; }

@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="content-language" content="de" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="description" content="Unterkunft Hustopece" />
+<meta name="keywords" content="Penzion" />
+<meta name="author" content="GRAWEB s.r.o., grafika a webdesign" />
+<meta name="robots" content="index, follow" />
+<title>Home | Penzion</title>
+<link href="/layout/1/theme.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="/layout/1/print.css" rel="stylesheet" type="text/css" media="print" />
+<link href="/layout/main.css" rel="stylesheet" type="text/css" media="screen" />
+<script type='text/javascript' src='/admin/modules/system/javascript/presentation.js'></script>
+<link href="/js/imagebox2/imagebox.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body  class="home">
+<div id="mother">
+    <div class="lang">
+        <a href="/"><img src="layout/img/cz.png"/></a>
+        <a href="/penzion-meredova"><img src="layout/img/en.png"/></a>
+        <a href="/penzion-meredova-1"><img src="layout/img/de.png"/></a>
+    </div>
+    <div id="header">
+		<p id="logo"><a href="/">		Penzion</a></p>
+		<p><strong>Unterkunft Hustopece</strong><br /></p>
+	</div>
+	<!--/header -->
+	<div id="content" class="cols">
+		<div id="col-r">
+
+
+<h1>Penzion</h1>
+
+<div class="spc">
+	
+		
+	<p><img alt="" data-expandable="1" src="/obrazky-soubory/meredova000-de816.jpg" style="width: 250px; height: 235px; margin: 10px 20px; float: right;" />​Wir bieten Unterkunft in Doppelbettzimmer mit Sozialeinrichtung, Dreibettzimmer und Vierbettzimmer, 3xWC, 3xDusche, Küche, TV, Terrasse. Parkplätze sind im Hoftrakt.</p>
+
+<p>Günstige Preise. Fahren Sie nach Plattensee oder in die Slowakei zur Kur? Rufen Sie uns an, unsere Unterkunft liegt gerade an dieser Strecke.</p>
+
+<p>Hustopece und Umgebung bieten Ihnen neues Schwimmbad mit Rutschbahn, Hallenbad, Tennisplätze. Stausee Nove Mlyny/Neue Mühlen ist nur 4 km entfernt - Fischen, Surfen und Schwimmen möglich. Zur Brünner Messe kommen Sie in nur 20 Minuten an. Es besteht die Möglichkeit von Frühstücken und Weinkellerbesichtigungen.</p>
+</div>
+<!--/spc -->
+
+
+
+
+
+
+
+		</div>
+		<!--/col-r -->
+		<div id="col-l">
+			<div id="menu-main">
+				<ul>
+					
+<li class='active'>
+<a href='/penzion-meredova-1'>Home</a>
+
+
+</li>
+<li>
+<a href='/umwelt'>Umwelt</a>
+
+
+</li>
+<li>
+<a href='/fotogalerie'>Fotogalerie</a>
+
+
+</li>
+<li>
+<a href='/kontakte'>Kontakte</a>
+
+
+</li>
+</ul>
+
+<!-- shop -->
+
+<!--/shop -->
+
+			</div>
+			<!--/menu-main -->
+
+
+			
+						
+						
+							
+						
+			
+						
+						
+
+						
+						
+		</div>
+		<!--/col-l -->
+	</div>
+	<!-- content /-->
+
+	<hr class="out" />
+	<div id="footer">
+
+		<p>2013 &copy; Copyright</p>
+		<p class="r">Webdesign: <a href="https://www.graweb.com">GRAWEB</a></p>
+	</div>
+	<!-- /footer -->
+</div>
+<!-- /mother -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/js/libs/jquery-1.7.2.min.js"><\/script>')</script>
+<script src="/js/imagebox2/iutil.js" type="text/javascript"></script>
+<script src="/js/imagebox2/imagebox_new.js?1" type="text/javascript"></script>
+<script src="/js/script.js"></script>
+<script src="/js/main.js" type="text/javascript"></script>
+
+
+
+</body>
+</html>
