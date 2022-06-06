@@ -36,7 +36,7 @@ h1 { margin: 0 0 20px; padding: 0.6em 20px; clear: both; font-size: 23px; font-w
 #menu-main li { border-bottom: 1px solid #ddd; }
 #menu-main li.last { border: none; }
 /* Main menu > 1. level */
-#menu-main a { display: block; padding: 9px 16px; text-decoration: none; font-weight: bold; font-size: 12px; background: url("/layout/2/img/menu-link.png") no-repeat 5px 16px; }
+#menu-main a { display: block; padding: 9px 16px; text-decoration: none; font-weight: bold; font-size: 12px; background: url("https://konecnydavid.github.io/penzion-hustopece/layout/2/img/menu-link.png") no-repeat 5px 16px; }
 #menu-main a:hover, #menu-main a:active, #menu-main a:focus { background-position: 5px -780px; }
 #menu-main li.active { margin-top: -1px; }
 #menu-main li.active a, #menu-main li.active a:hover { background-position: 5px -1580px; }
@@ -45,15 +45,15 @@ h1 { margin: 0 0 20px; padding: 0.6em 20px; clear: both; font-size: 23px; font-w
 #menu-main ul ul ul a { font-size: 11px; }
 
 /* Content */
-#content { margin-top: 22px; padding: 0 0 1em; background: url("/layout/2/img/content.jpg") repeat-y 0 0; }
+#content { margin-top: 22px; padding: 0 0 1em; background: url("https://konecnydavid.github.io/penzion-hustopece/layout/2/img/content.jpg") repeat-y 0 0; }
 #content img { padding: 2px; }
 
 /* Columns */
 #col-l, #col-r { min-height: 500px; _height: 500px; }
-#col-l { width: 245px; float: left; background: url("/layout/2/img/col-l.jpg") no-repeat 0 0; }
+#col-l { width: 245px; float: left; background: url("https://konecnydavid.github.io/penzion-hustopece/layout/2/img/col-l.jpg") no-repeat 0 0; }
 #col-l .spc { margin: 30px 20px; padding: 15px 15px 0; color: #333; border: 1px solid #eee; }
 /* Col-r */
-#col-r { width: 670px; padding: 35px 30px 25px 15px; float: right; background: url("/layout/2/img/col-r.jpg") no-repeat 0 0; }
+#col-r { width: 670px; padding: 35px 30px 25px 15px; float: right; background: url("https://konecnydavid.github.io/penzion-hustopece/layout/2/img/col-r.jpg") no-repeat 0 0; }
 #col-r .spc { padding: 0 20px 25px; }
 
 /* Home > Col-r */
@@ -71,7 +71,7 @@ h1 { margin: 0 0 20px; padding: 0.6em 20px; clear: both; font-size: 23px; font-w
 #perex p { margin: 0; }
 
 /* Footer */
-#footer { margin: 0 15px 20px; color: #5A6054; font-size: 92%; background: url("/layout/2/img/footer.jpg") no-repeat 0 0; }
+#footer { margin: 0 15px 20px; color: #5A6054; font-size: 92%; background: url("https://konecnydavid.github.io/penzion-hustopece/layout/2/img/footer.jpg") no-repeat 0 0; }
 #footer p { margin: 0; padding-top: 1.5em; clear: both; xfloat: right; }
 #footer img { border: none; }
 #footer p.r { padding-top: 0; margin-top: -1.5em; }
@@ -186,7 +186,7 @@ ul.articles {
 .prices del { text-decoration:none; }
 .to-basket { text-align:right; clear:both; }
 
-#menu-main ul.shop a { padding: 4px 16px; background: url("/layout/2/img/menu-link.png") no-repeat 5px 11px; }
+#menu-main ul.shop a { padding: 4px 16px; background: url("https://konecnydavid.github.io/penzion-hustopece/layout/2/img/menu-link.png") no-repeat 5px 11px; }
 #menu-main ul.shop a:hover, #menu-main ul.shop a:active, #menu-main ul.shop a:focus { background-position: 5px -785px; }
 #menu-main ul.shop li.active { margin-top: -1px; }
 #menu-main ul.shop li.active a, #menu-main ul.shop li.active a:hover { background-position: 5px -1585px; }

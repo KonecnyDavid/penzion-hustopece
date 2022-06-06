@@ -9,33 +9,34 @@
 <meta name="author" content="GRAWEB s.r.o., grafika a webdesign" />
 <meta name="robots" content="index, follow" />
 <title>Home | Penzion</title>
-<link href="/layout/1/theme.css" rel="stylesheet" type="text/css" media="screen" />
-<link href="/layout/1/print.css" rel="stylesheet" type="text/css" media="print" />
-<link href="/layout/main.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="https://konecnydavid.github.io/penzion-hustopece/layout/1/theme.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="https://konecnydavid.github.io/penzion-hustopece/layout/1/print.css" rel="stylesheet" type="text/css" media="print" />
+<link href="https://konecnydavid.github.io/penzion-hustopece/layout/main.css" rel="stylesheet" type="text/css" media="screen" />
 <script type='text/javascript' src='/admin/modules/system/javascript/presentation.js'></script>
-<link href="/js/imagebox2/imagebox.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="https://konecnydavid.github.io/penzion-hustopece/js/imagebox2/imagebox.css" rel="stylesheet" type="text/css" media="screen" />
 </head>
 <body  class="home">
 <div id="mother">
     <div class="lang">
-        <a href="/"><img src="layout/img/cz.png"/></a>
-        <a href="/penzion-meredova"><img src="layout/img/en.png"/></a>
-        <a href="/penzion-meredova-1"><img src="layout/img/de.png"/></a>
+        <a href="https://konecnydavid.github.io/penzion-hustopece/"><img src="layout/img/cz.png"/></a>
+        <a href="https://konecnydavid.github.io/penzion-hustopece/penzion-meredova"><img src="layout/img/en.png"/></a>
+        <a href="https://konecnydavid.github.io/penzion-hustopece/penzion-meredova-1"><img src="layout/img/de.png"/></a>
     </div>
     <div id="header">
-		<p id="logo"><a href="/">		Penzion</a></p>
+		<p id="logo"><a href="https://konecnydavid.github.io/penzion-hustopece/">		Penzion</a></p>
 		<p><strong>Unterkunft Hustopece</strong><br /></p>
 	</div>
 	<!--/header -->
 	<div id="content" class="cols">
 		<div id="col-r">
 
-
+
+
 <h1>Penzion</h1>
 
 <div class="spc">
 	
-		
+		"https://konecnydavid.github.io/penzion-hustopece/o
 	<p><img alt="" data-expandable="1" src="/obrazky-soubory/meredova000-de816.jpg" style="width: 250px; height: 235px; margin: 10px 20px; float: right;" />​Wir bieten Unterkunft in Doppelbettzimmer mit Sozialeinrichtung, Dreibettzimmer und Vierbettzimmer, 3xWC, 3xDusche, Küche, TV, Terrasse. Parkplätze sind im Hoftrakt.</p>
 
 <p>Günstige Preise. Fahren Sie nach Plattensee oder in die Slowakei zur Kur? Rufen Sie uns an, unsere Unterkunft liegt gerade an dieser Strecke.</p>
@@ -111,12 +112,12 @@
 	<!-- /footer -->
 </div>
 <!-- /mother -->
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="/js/libs/jquery-1.7.2.min.js"><\/script>')</script>
-<script src="/js/imagebox2/iutil.js" type="text/javascript"></script>
-<script src="/js/imagebox2/imagebox_new.js?1" type="text/javascript"></script>
-<script src="/js/script.js"></script>
+"https://konecnydavid.github.io/penzion-hustopece//
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1"https://konecnydavid.github.io/penzion-hustopece/j2/jquery.min.js"></script>
+<script>wind"https://konecnydavid.github.io/penzion-hustopece/jjQuery || document.write('<script src="/js/libs/jquery-1.7.2.min.js"><\/script>')</script>
+<script src="https://konecnydavid.github.io/penzion-hustopece/js/imagebox2/iutil.js" type="text/javascript"></script>
+<script src="https://konecnydavid.github.io/penzion-hustopece/js/imagebox2/imagebox_new.js?1" type="text/javascript"></script>
+<script src="https://konecnydavid.github.io/penzion-hustopece/js/script.js"></script>
 <script src="/js/main.js" type="text/javascript"></script>
 
 
